@@ -4,7 +4,7 @@ Change Log
 Version 2.0.0-beta1 *(2015-08-27)*
 ----------------------------------
 
- * New: `Call` encapsulates a single request/response HTTP call. A call can by run synchronously
+ * New: `Call` encapsulates a single request/response HTTP call. A call can be run synchronously
    via `execute()` or asynchronously via `enqueue()` and can be canceled with `cancel()`.
  * New: `Response` is now parameterized and includes the deserialized body object.
  * New: `@Url` parameter annotation allows passing a complete URL for an endpoint.
